@@ -28,5 +28,12 @@ namespace atv._2023
         {
             Application.Exit();
         }
+
+        private void atToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form3 fm = new Form3();
+            fm.Show();
+        }
     }
 }

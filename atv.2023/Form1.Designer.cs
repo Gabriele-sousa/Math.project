@@ -32,6 +32,7 @@
             this.programasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.atv1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.atToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,7 +50,8 @@
             // programasToolStripMenuItem
             // 
             this.programasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.atv1ToolStripMenuItem});
+            this.atv1ToolStripMenuItem,
+            this.atToolStripMenuItem});
             this.programasToolStripMenuItem.Name = "programasToolStripMenuItem";
             this.programasToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
             this.programasToolStripMenuItem.Text = "Programas";
@@ -67,6 +69,13 @@
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            // 
+            // atToolStripMenuItem
+            // 
+            this.atToolStripMenuItem.Name = "atToolStripMenuItem";
+            this.atToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.atToolStripMenuItem.Text = "Atv2";
+            this.atToolStripMenuItem.Click += new System.EventHandler(this.atToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -90,6 +99,7 @@
         private System.Windows.Forms.ToolStripMenuItem programasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem atv1ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem atToolStripMenuItem;
     }
 }
 

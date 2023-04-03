@@ -31,6 +31,9 @@ namespace atv._2023
 
                 else
                     result = ((litros / 5.50) * 6 / 100);
+
+                txtresult.Text = result.ToString();
+
             }
             else if (x == 'A')
             {
@@ -38,9 +41,12 @@ namespace atv._2023
                     result = ((litros / 4.90) * 3 / 100);
                 else
                     result = ((litros / 4.90) * 5 / 100);
+          
+                txtresult.Text = result.ToString();
+            
             }
 
-            txtresult.Text = result.ToString();
+            
 
         }
 
