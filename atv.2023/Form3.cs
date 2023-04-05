@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace atv._2023
@@ -34,7 +27,7 @@ namespace atv._2023
         {
             double x, result;
 
-            x = Convert.ToDouble(txtnum);
+            x = Convert.ToDouble(txtnum.Text);
 
             int i;
 
@@ -45,14 +38,14 @@ namespace atv._2023
                 i++;
             } while (i > 10);
 
-            txtresult.Text = result.ToString();
+            txtresult.Text = String.Concat(txtresult.Text, " \n\n ", result.ToString());
         }
 
         private void btnenquanto_Click(object sender, EventArgs e)
         {
             double x, result;
 
-            x = Convert.ToDouble(txtnum);
+            x = Convert.ToDouble(txtnum.Text);
 
             int i;
 
@@ -65,7 +58,7 @@ namespace atv._2023
                
                 i++;
 
-                txtresult.Text = result.ToString();
+                txtresult.Text = String.Concat(txtresult.Text, " \n\n ", result.ToString());
                     }
         }
 
@@ -73,14 +66,14 @@ namespace atv._2023
         {
             double x, result;
 
-            x = Convert.ToDouble(txtnum);
+            x = Convert.ToDouble(txtnum.Text);
 
             int i;
 
             for(i = 1; 1 <= 10;i++)
             {
                 result = 1 * x;
-                txtresult.Text = result.ToString();
+                txtresult.Text = String.Concat(txtresult.Text, " n\n ", result.ToString());
             }
 
 
