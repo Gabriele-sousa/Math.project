@@ -36,7 +36,7 @@ namespace atv._2023
             {
                 result = i * x;
                 i++;
-            } while (i > 10);
+            } while (i < 10);
 
             txtresult.Text = String.Concat(txtresult.Text, " \n\n ", result.ToString());
         }
@@ -70,10 +70,10 @@ namespace atv._2023
 
             int i;
 
-            for(i = 1; 1 <= 10;i++)
+            for(i = 1; i <= 10;i++)
             {
-                result = 1 * x;
-                txtresult.Text = String.Concat(txtresult.Text, " n\n ", result.ToString());
+                result = i * x;
+                txtresult.Text = String.Concat(txtresult.Text, " \n\n ", result.ToString());
             }
 
 
